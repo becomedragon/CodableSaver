@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89BF53B722A12470007A4931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53B622A12470007A4931 /* AppDelegate.swift */; };
+		89BF53B922A12470007A4931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53B822A12470007A4931 /* ViewController.swift */; };
+		89BF53BC22A12470007A4931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF53BA22A12470007A4931 /* Main.storyboard */; };
+		89BF53BE22A12471007A4931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BF53BD22A12471007A4931 /* Assets.xcassets */; };
+		89BF53C122A12471007A4931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF53BF22A12471007A4931 /* LaunchScreen.storyboard */; };
+		89BF53CC22A12471007A4931 /* CodableSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53CB22A12471007A4931 /* CodableSaverUITests.swift */; };
+		89BF53FE22A124D6007A4931 /* MiniCodedOutputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53DE22A124D6007A4931 /* MiniCodedOutputData.mm */; };
+		89BF53FF22A124D6007A4931 /* MiniPBCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53E122A124D6007A4931 /* MiniPBCoder.mm */; };
+		89BF540022A124D6007A4931 /* MiniCodedInputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53E222A124D6007A4931 /* MiniCodedInputData.mm */; };
+		89BF540122A124D6007A4931 /* MMKV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53E322A124D6007A4931 /* MMKV.mm */; };
+		89BF540222A124D6007A4931 /* MiniPBUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53E422A124D6007A4931 /* MiniPBUtility.mm */; };
+		89BF540322A124D6007A4931 /* MemoryFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53EA22A124D6007A4931 /* MemoryFile.mm */; };
+		89BF540422A124D6007A4931 /* AESCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53ED22A124D6007A4931 /* AESCrypt.mm */; };
+		89BF540522A124D6007A4931 /* cfb128.c in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53F222A124D6007A4931 /* cfb128.c */; };
+		89BF540622A124D6007A4931 /* aes_core.c in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53F422A124D6007A4931 /* aes_core.c */; };
+		89BF540722A124D6007A4931 /* aes_cfb.c in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53F522A124D6007A4931 /* aes_cfb.c */; };
+		89BF540822A124D6007A4931 /* md5_one.c in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53F822A124D6007A4931 /* md5_one.c */; };
+		89BF540922A124D6007A4931 /* md5_dgst.c in Sources */ = {isa = PBXBuildFile; fileRef = 89BF53FA22A124D6007A4931 /* md5_dgst.c */; };
+		89BF541022A12523007A4931 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF540E22A12523007A4931 /* Codable.swift */; };
+		89BF541122A12523007A4931 /* CodableSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF540F22A12523007A4931 /* CodableSaver.swift */; };
+		89BF541B22A12763007A4931 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BF541A22A12763007A4931 /* libz.tbd */; };
+		89BF541D22A12798007A4931 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF541C22A12798007A4931 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89BF53C822A12471007A4931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89BF53AB22A12470007A4931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89BF53B222A12470007A4931;
+			remoteInfo = CodableSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89BF53B322A12470007A4931 /* CodableSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BF53B622A12470007A4931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89BF53B822A12470007A4931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89BF53BB22A12470007A4931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89BF53BD22A12471007A4931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89BF53C022A12471007A4931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89BF53C222A12471007A4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BF53C722A12471007A4931 /* CodableSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BF53CB22A12471007A4931 /* CodableSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSaverUITests.swift; sourceTree = "<group>"; };
+		89BF53CD22A12471007A4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BF53DB22A124D6007A4931 /* MMKVLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMKVLog.h; sourceTree = "<group>"; };
+		89BF53DC22A124D6007A4931 /* MMKV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMKV.h; sourceTree = "<group>"; };
+		89BF53DD22A124D6007A4931 /* MiniCodedInputData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniCodedInputData.h; sourceTree = "<group>"; };
+		89BF53DE22A124D6007A4931 /* MiniCodedOutputData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniCodedOutputData.mm; sourceTree = "<group>"; };
+		89BF53DF22A124D6007A4931 /* MiniPBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniPBUtility.h; sourceTree = "<group>"; };
+		89BF53E022A124D6007A4931 /* LRUCache.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LRUCache.hpp; sourceTree = "<group>"; };
+		89BF53E122A124D6007A4931 /* MiniPBCoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniPBCoder.mm; sourceTree = "<group>"; };
+		89BF53E222A124D6007A4931 /* MiniCodedInputData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniCodedInputData.mm; sourceTree = "<group>"; };
+		89BF53E322A124D6007A4931 /* MMKV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MMKV.mm; sourceTree = "<group>"; };
+		89BF53E422A124D6007A4931 /* MiniPBUtility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniPBUtility.mm; sourceTree = "<group>"; };
+		89BF53E522A124D6007A4931 /* MiniCodedOutputData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniCodedOutputData.h; sourceTree = "<group>"; };
+		89BF53E622A124D6007A4931 /* MiniPBEncodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniPBEncodeItem.h; sourceTree = "<group>"; };
+		89BF53E722A124D6007A4931 /* MemoryFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryFile.h; sourceTree = "<group>"; };
+		89BF53E822A124D6007A4931 /* ScopedLock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ScopedLock.hpp; sourceTree = "<group>"; };
+		89BF53E922A124D6007A4931 /* MiniPBCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniPBCoder.h; sourceTree = "<group>"; };
+		89BF53EA22A124D6007A4931 /* MemoryFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MemoryFile.mm; sourceTree = "<group>"; };
+		89BF53EB22A124D6007A4931 /* MMKVHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMKVHandler.h; sourceTree = "<group>"; };
+		89BF53ED22A124D6007A4931 /* AESCrypt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AESCrypt.mm; sourceTree = "<group>"; };
+		89BF53EE22A124D6007A4931 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		89BF53F022A124D6007A4931 /* md32_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md32_common.h; sourceTree = "<group>"; };
+		89BF53F122A124D6007A4931 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		89BF53F222A124D6007A4931 /* cfb128.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cfb128.c; sourceTree = "<group>"; };
+		89BF53F322A124D6007A4931 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		89BF53F422A124D6007A4931 /* aes_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_core.c; sourceTree = "<group>"; };
+		89BF53F522A124D6007A4931 /* aes_cfb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_cfb.c; sourceTree = "<group>"; };
+		89BF53F622A124D6007A4931 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		89BF53F722A124D6007A4931 /* md5_locl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5_locl.h; sourceTree = "<group>"; };
+		89BF53F822A124D6007A4931 /* md5_one.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5_one.c; sourceTree = "<group>"; };
+		89BF53F922A124D6007A4931 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		89BF53FA22A124D6007A4931 /* md5_dgst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5_dgst.c; sourceTree = "<group>"; };
+		89BF53FB22A124D6007A4931 /* aes_locl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_locl.h; sourceTree = "<group>"; };
+		89BF540E22A12523007A4931 /* Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		89BF540F22A12523007A4931 /* CodableSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableSaver.swift; sourceTree = "<group>"; };
+		89BF541822A12635007A4931 /* CodableSaver-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CodableSaver-Bridging-Header.h"; sourceTree = "<group>"; };
+		89BF541A22A12763007A4931 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		89BF541C22A12798007A4931 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89BF53B022A12470007A4931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF541B22A12763007A4931 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BF53C422A12471007A4931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89BF53AA22A12470007A4931 = {
+			isa = PBXGroup;
+			children = (
+				89BF53B522A12470007A4931 /* CodableSaver */,
+				89BF53CA22A12471007A4931 /* CodableSaverUITests */,
+				89BF53B422A12470007A4931 /* Products */,
+				89BF541922A12763007A4931 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89BF53B422A12470007A4931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53B322A12470007A4931 /* CodableSaver.app */,
+				89BF53C722A12471007A4931 /* CodableSaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89BF53B522A12470007A4931 /* CodableSaver */ = {
+			isa = PBXGroup;
+			children = (
+				89BF540D22A12514007A4931 /* CodableSaver */,
+				89BF53D622A124BC007A4931 /* Vendor */,
+				89BF53B622A12470007A4931 /* AppDelegate.swift */,
+				89BF541C22A12798007A4931 /* Model.swift */,
+				89BF53B822A12470007A4931 /* ViewController.swift */,
+				89BF53BA22A12470007A4931 /* Main.storyboard */,
+				89BF53BD22A12471007A4931 /* Assets.xcassets */,
+				89BF53BF22A12471007A4931 /* LaunchScreen.storyboard */,
+				89BF53C222A12471007A4931 /* Info.plist */,
+				89BF541822A12635007A4931 /* CodableSaver-Bridging-Header.h */,
+			);
+			path = CodableSaver;
+			sourceTree = "<group>";
+		};
+		89BF53CA22A12471007A4931 /* CodableSaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53CB22A12471007A4931 /* CodableSaverUITests.swift */,
+				89BF53CD22A12471007A4931 /* Info.plist */,
+			);
+			path = CodableSaverUITests;
+			sourceTree = "<group>";
+		};
+		89BF53D622A124BC007A4931 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53D722A124D6007A4931 /* MMKV */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		89BF53D722A124D6007A4931 /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53D822A124D6007A4931 /* iOS */,
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
+		89BF53D822A124D6007A4931 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53D922A124D6007A4931 /* MMKV */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		89BF53D922A124D6007A4931 /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53DA22A124D6007A4931 /* MMKV */,
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
+		89BF53DA22A124D6007A4931 /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53DB22A124D6007A4931 /* MMKVLog.h */,
+				89BF53DC22A124D6007A4931 /* MMKV.h */,
+				89BF53DD22A124D6007A4931 /* MiniCodedInputData.h */,
+				89BF53DE22A124D6007A4931 /* MiniCodedOutputData.mm */,
+				89BF53DF22A124D6007A4931 /* MiniPBUtility.h */,
+				89BF53E022A124D6007A4931 /* LRUCache.hpp */,
+				89BF53E122A124D6007A4931 /* MiniPBCoder.mm */,
+				89BF53E222A124D6007A4931 /* MiniCodedInputData.mm */,
+				89BF53E322A124D6007A4931 /* MMKV.mm */,
+				89BF53E422A124D6007A4931 /* MiniPBUtility.mm */,
+				89BF53E522A124D6007A4931 /* MiniCodedOutputData.h */,
+				89BF53E622A124D6007A4931 /* MiniPBEncodeItem.h */,
+				89BF53E722A124D6007A4931 /* MemoryFile.h */,
+				89BF53E822A124D6007A4931 /* ScopedLock.hpp */,
+				89BF53E922A124D6007A4931 /* MiniPBCoder.h */,
+				89BF53EA22A124D6007A4931 /* MemoryFile.mm */,
+				89BF53EB22A124D6007A4931 /* MMKVHandler.h */,
+				89BF53EC22A124D6007A4931 /* aes */,
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
+		89BF53EC22A124D6007A4931 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53ED22A124D6007A4931 /* AESCrypt.mm */,
+				89BF53EE22A124D6007A4931 /* AESCrypt.h */,
+				89BF53EF22A124D6007A4931 /* openssl */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		89BF53EF22A124D6007A4931 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				89BF53F022A124D6007A4931 /* md32_common.h */,
+				89BF53F122A124D6007A4931 /* opensslconf.h */,
+				89BF53F222A124D6007A4931 /* cfb128.c */,
+				89BF53F322A124D6007A4931 /* md5.h */,
+				89BF53F422A124D6007A4931 /* aes_core.c */,
+				89BF53F522A124D6007A4931 /* aes_cfb.c */,
+				89BF53F622A124D6007A4931 /* aes.h */,
+				89BF53F722A124D6007A4931 /* md5_locl.h */,
+				89BF53F822A124D6007A4931 /* md5_one.c */,
+				89BF53F922A124D6007A4931 /* modes.h */,
+				89BF53FA22A124D6007A4931 /* md5_dgst.c */,
+				89BF53FB22A124D6007A4931 /* aes_locl.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		89BF540D22A12514007A4931 /* CodableSaver */ = {
+			isa = PBXGroup;
+			children = (
+				89BF540E22A12523007A4931 /* Codable.swift */,
+				89BF540F22A12523007A4931 /* CodableSaver.swift */,
+			);
+			path = CodableSaver;
+			sourceTree = "<group>";
+		};
+		89BF541922A12763007A4931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89BF541A22A12763007A4931 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89BF53B222A12470007A4931 /* CodableSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BF53D022A12471007A4931 /* Build configuration list for PBXNativeTarget "CodableSaver" */;
+			buildPhases = (
+				89BF53AF22A12470007A4931 /* Sources */,
+				89BF53B022A12470007A4931 /* Frameworks */,
+				89BF53B122A12470007A4931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodableSaver;
+			productName = CodableSaver;
+			productReference = 89BF53B322A12470007A4931 /* CodableSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89BF53C622A12471007A4931 /* CodableSaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BF53D322A12471007A4931 /* Build configuration list for PBXNativeTarget "CodableSaverUITests" */;
+			buildPhases = (
+				89BF53C322A12471007A4931 /* Sources */,
+				89BF53C422A12471007A4931 /* Frameworks */,
+				89BF53C522A12471007A4931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89BF53C922A12471007A4931 /* PBXTargetDependency */,
+			);
+			name = CodableSaverUITests;
+			productName = CodableSaverUITests;
+			productReference = 89BF53C722A12471007A4931 /* CodableSaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89BF53AB22A12470007A4931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "程晓龙";
+				TargetAttributes = {
+					89BF53B222A12470007A4931 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					89BF53C622A12471007A4931 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 89BF53B222A12470007A4931;
+					};
+				};
+			};
+			buildConfigurationList = 89BF53AE22A12470007A4931 /* Build configuration list for PBXProject "CodableSaver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89BF53AA22A12470007A4931;
+			productRefGroup = 89BF53B422A12470007A4931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89BF53B222A12470007A4931 /* CodableSaver */,
+				89BF53C622A12471007A4931 /* CodableSaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89BF53B122A12470007A4931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF53C122A12471007A4931 /* LaunchScreen.storyboard in Resources */,
+				89BF53BE22A12471007A4931 /* Assets.xcassets in Resources */,
+				89BF53BC22A12470007A4931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BF53C522A12471007A4931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89BF53AF22A12470007A4931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF540422A124D6007A4931 /* AESCrypt.mm in Sources */,
+				89BF540122A124D6007A4931 /* MMKV.mm in Sources */,
+				89BF540022A124D6007A4931 /* MiniCodedInputData.mm in Sources */,
+				89BF540522A124D6007A4931 /* cfb128.c in Sources */,
+				89BF53B922A12470007A4931 /* ViewController.swift in Sources */,
+				89BF540822A124D6007A4931 /* md5_one.c in Sources */,
+				89BF540722A124D6007A4931 /* aes_cfb.c in Sources */,
+				89BF540622A124D6007A4931 /* aes_core.c in Sources */,
+				89BF541122A12523007A4931 /* CodableSaver.swift in Sources */,
+				89BF541022A12523007A4931 /* Codable.swift in Sources */,
+				89BF541D22A12798007A4931 /* Model.swift in Sources */,
+				89BF540922A124D6007A4931 /* md5_dgst.c in Sources */,
+				89BF53B722A12470007A4931 /* AppDelegate.swift in Sources */,
+				89BF53FF22A124D6007A4931 /* MiniPBCoder.mm in Sources */,
+				89BF540222A124D6007A4931 /* MiniPBUtility.mm in Sources */,
+				89BF540322A124D6007A4931 /* MemoryFile.mm in Sources */,
+				89BF53FE22A124D6007A4931 /* MiniCodedOutputData.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BF53C322A12471007A4931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF53CC22A12471007A4931 /* CodableSaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89BF53C922A12471007A4931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89BF53B222A12470007A4931 /* CodableSaver */;
+			targetProxy = 89BF53C822A12471007A4931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89BF53BA22A12470007A4931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BF53BB22A12470007A4931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89BF53BF22A12471007A4931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BF53C022A12471007A4931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89BF53CE22A12471007A4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89BF53CF22A12471007A4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89BF53D122A12471007A4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
+				INFOPLIST_FILE = CodableSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.becomedragon.snap-Demo.CodableSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CodableSaver/CodableSaver-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89BF53D222A12471007A4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
+				INFOPLIST_FILE = CodableSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.becomedragon.snap-Demo.CodableSaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CodableSaver/CodableSaver-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89BF53D422A12471007A4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
+				INFOPLIST_FILE = CodableSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.becomedragon.snap-Demo.CodableSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodableSaver;
+			};
+			name = Debug;
+		};
+		89BF53D522A12471007A4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
+				INFOPLIST_FILE = CodableSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.becomedragon.snap-Demo.CodableSaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodableSaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89BF53AE22A12470007A4931 /* Build configuration list for PBXProject "CodableSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BF53CE22A12471007A4931 /* Debug */,
+				89BF53CF22A12471007A4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BF53D022A12471007A4931 /* Build configuration list for PBXNativeTarget "CodableSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BF53D122A12471007A4931 /* Debug */,
+				89BF53D222A12471007A4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BF53D322A12471007A4931 /* Build configuration list for PBXNativeTarget "CodableSaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BF53D422A12471007A4931 /* Debug */,
+				89BF53D522A12471007A4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89BF53AB22A12470007A4931 /* Project object */;
+}
